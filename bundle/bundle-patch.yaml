@@ -226,3 +226,5 @@ patch:
 relatedImages:
   - name: RELATED_IMAGE_ODH_TEST_COMP4_IMAGE
     value: quay.io/rhoai/odh-test-comp4-rhel9@sha256:09907dc423129dbaef94419eea251ac9321f05ab8e3afd5ceb34513703bc4496
+  - name: RELATED_IMAGE_ODH_TEST_COMP8_IMAGE
+    value: quay.io/rhoai/odh-test-comp8-rhel9@sha256:b2191f034b2479a07df534906e50f07f9793e1bfe5feccd1a1bbfe60ea048aa9
