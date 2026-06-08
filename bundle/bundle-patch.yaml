@@ -223,3 +223,6 @@ patch:
     file: additional-images-patch.yaml
   additional-fields:
     file: csv-patch.yaml
+relatedImages:
+  - name: RELATED_IMAGE_ODH_TEST_COMP4_IMAGE
+    value: quay.io/rhoai/odh-test-comp4-rhel9@sha256:09907dc423129dbaef94419eea251ac9321f05ab8e3afd5ceb34513703bc4496
