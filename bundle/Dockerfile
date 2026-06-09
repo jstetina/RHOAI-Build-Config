@@ -195,6 +195,8 @@ ARG ODH_TEST_COMP4_GIT_URL=
 ARG ODH_TEST_COMP4_GIT_COMMIT=
 ARG ODH_TEST_COMP8_GIT_URL=
 ARG ODH_TEST_COMP8_GIT_COMMIT=
+ARG ODH_TEST_COMP_RHOAI_GIT_URL=
+ARG ODH_TEST_COMP_RHOAI_GIT_COMMIT=
 # Core bundle labels.
 LABEL operators.operatorframework.io.bundle.mediatype.v1=registry+v1
 LABEL operators.operatorframework.io.bundle.manifests.v1=manifests/
@@ -404,7 +406,9 @@ LABEL \
       odh-test-comp4.git.url="${ODH_TEST_COMP4_GIT_URL}" \
       odh-test-comp4.git.commit="${ODH_TEST_COMP4_GIT_COMMIT}" \
       odh-test-comp8.git.url="${ODH_TEST_COMP8_GIT_URL}" \
-      odh-test-comp8.git.commit="${ODH_TEST_COMP8_GIT_COMMIT}"
+      odh-test-comp8.git.commit="${ODH_TEST_COMP8_GIT_COMMIT}" \
+      odh-test-comp-rhoai.git.url="${ODH_TEST_COMP_RHOAI_GIT_URL}" \
+      odh-test-comp-rhoai.git.commit="${ODH_TEST_COMP_RHOAI_GIT_COMMIT}"
 # Copy files to locations specified by labels.
 
 LABEL com.redhat.component="odh-operator-bundle" \
