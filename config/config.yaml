@@ -25,3 +25,6 @@ config:
         - rhods-operator.3.2.1
         - rhods-operator.3.4.0-ea.1
         - rhods-operator.3.4.0-ea.2
+  components:
+    - name: test-comp-beta
+      image: quay.io/rhoai/test-comp-beta
